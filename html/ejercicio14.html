@@ -1,0 +1,38 @@
+<!--14. Escribir una funcion llamada duplicar que reciba un arreglo de numeros y 
+retorne un nuevo arreglo donde cada numero este multiplicado por dos(2)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+
+       let arreglo = [5, 3, 8, 4, 10, 50, 7, 8];
+       let arregloDoble = [];
+
+       const mostrarArreglo = (arreglo) => {
+          arreglo.forEach((elemento) => console.log(elemento));
+       };
+       
+       let duplicar = (arreglo) => {
+
+        for (i=0; i<= arreglo.length - 1; i++)
+        {
+            let agregar = arreglo[i];
+            arregloDoble.push(agregar*2);
+        };
+       };
+
+       duplicar(arreglo, arregloDoble)
+       mostrarArreglo(arregloDoble);
+    
+    
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
