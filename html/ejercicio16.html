@@ -1,0 +1,35 @@
+<!--
+Escribir una función llamada sumarRango que reciba dos argumentos
+numéricos enteros: número inicial y número final. La función debe retornar
+la suma de los números en ese rango (incluyéndolos).
+El número inicial debe ser menor o igual que el número final. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        let numInicial = Number(prompt("Ingrese un valor inicial: "));
+        let numFinal = Number(prompt("Ingrese un valor final: "));
+
+        const sumarRango = (numInicial, numFinal) => {  
+            if(numInicial<=numFinal){
+                let sumaTotal=0;
+                for (let i=numInicial; i<=numFinal; i++){
+                    sumaTotal=sumaTotal+i;
+                }
+                alert("La suma de los números del rango es: " + sumaTotal);
+            }else{
+                alert("Debe ingresar un numero inicial menor o igual que el número final");
+            }
+        }
+        
+        sumarRango(numInicial, numFinal);
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!--
+Escribir una función llamada contarLetraA que reciba un string y retorne
+el número de veces que aparece la letra "a".
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+    let palabra= prompt("Ingrese una palabra: ");
+    const contarLetraA = (palabra) =>{
+        totalA=0;
+        for (let i=0; i<palabra.length; i++) {
+            if(palabra[i]=="a" || palabra[i]=="A"){
+                totalA=totalA+1;
+            }
+        }
+        alert("La letra A en la palabra " + palabra + " aparece unt total de : " + totalA + " veces.")
+    }
+    contarLetraA(palabra);
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
