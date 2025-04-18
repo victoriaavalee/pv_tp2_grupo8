@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 0px;
+    background-image: linear-gradient(to right, rgb(2308, 230, 128)0%, rgb(230,230,128)33%,rgb(208, 95, 95) 33%, rgb(208, 95, 95)66%, rgb(86, 86, 210) 66%, rgb(86,86,210) 100%)
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 40px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+.imagen1{
+    text-align : left; 
+
+
+}
+
+.imagen3{
+    text-align : right; 
+
+}
+
+.imagen{
+    display: flex;
+}
+
+.grupoBotones{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: black;
+    color:antiquewhite;
+
+}
+
+.header1{
+
+    background-color: black;
+    color:antiquewhite;
+    display: flex;
+
+}
