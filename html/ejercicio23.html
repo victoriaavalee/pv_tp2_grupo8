@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ejercicio23.css">
+    <title>Punto 23</title>
+
+</head>
+<body>
+
+    <header>
+        <div class = "header1" >
+            <h1>"Selecciona un lenguaje de programacion:"</h1><br>
+        </div>
+
+    </header>
+    <form>
+          <div class = "grupoBotones">
+
+            <div>
+                <input type="radio" id="eleccion1" name="lenguaje" value="js"  onclick="mostrarImagen1();" />
+                <label for="eleccion1">Javascript</label>
+          
+                <input type="radio" id="eleccion2" name="lenguaje" value="html" onclick="mostrarImagen2();" />
+                <label for="eleccion2">HTML</label>
+          
+                <input type="radio" id="eleccion2" name="lenguaje" value="py" onclick="mostrarImagen3();"/>
+                <label for="eleccion2">Phython</label>
+              </div>  
+          </div>
+
+          <br><br><br>
+
+          <div class = "imagen">
+
+            <div class = "imagen1">
+                <div id="img1">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/027/127/463/small_2x/javascript-logo-javascript-icon-transparent-free-png.png" alt="Logo javascript">
+                </div>
+
+            </div>    
+
+            <div class = "imagen2">
+                <div id="img2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="HTML logo">
+                  </div>
+
+            </div>   
+
+            <div class = "imagen3">
+                <div id="img3">
+                    <img src="https://images.icon-icons.com/2699/PNG/512/python_vertical_logo_icon_168039.png" alt="Phython logo">
+                </div>
+
+            </div>   
+
+          </div>
+    </form>
+
+    <script src="../js/ejercicio23.js"></script> 
+
+</body>
+</html>
